@@ -20,7 +20,7 @@ void main() {
   double b = 0.5;
 
   print(a + b);
-  print(a - b);
+  print(a - b); // itriple 로 인해 0.1 로 저장이 안된다. 소수점 이하는 제대로 된 연산이 안됨.
   print(a * b);
   print(a / b);
   print(a % b);
